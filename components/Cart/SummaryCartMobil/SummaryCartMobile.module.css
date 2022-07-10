@@ -1,0 +1,91 @@
+.cartMobile {
+  position: relative;
+}
+
+.title {
+  background-color: var(--color-background-dark-absolute);
+  border-radius: 5px 5px 0 0;
+  color: var(--color-font-light);
+  padding: 5px 10px;
+  width: max-content;
+}
+
+.cartTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plus {
+  background-color: red;
+  border: 2px solid #000;
+  border-radius: 5px;
+  color: var(--color-font-light);
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 10px;
+  position: absolute;
+  right: 0;
+  top: -5px;
+  width: max-content;
+}
+
+.cartPhone {
+  background-color: var(--color-background-light);
+  border-top: none;
+  border: 2px solid var(--color-border-grey-light);
+  padding: 10px;
+}
+
+.cartPhone:first-of-type {
+  border-top: 2px solid var(--color-border-grey-light);
+}
+
+.phoneImage img {
+  object-fit: cover;
+}
+
+.phonePrice {
+  align-self: center;
+  display: flex !important;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: space-between !important;
+}
+
+.phonePrice i {
+  font-size: 25px;
+}
+
+.cartPhone h4 {
+  margin: 0;
+}
+
+.cartPhone span {
+  display: block;
+}
+
+.circle {
+  font-size: 25px;
+}
+
+.subtotal {
+  font-weight: bold;
+}
+
+.resume {
+  align-items: center;
+  background-color: var(--color-background-dark-absolute);
+  color: var(--color-font-light);
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  height: 40px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.resume span {
+  color: var(--color-primary);
+  font-size: 20px;
+  margin-left: 10px;
+}

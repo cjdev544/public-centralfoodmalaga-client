@@ -1,0 +1,9 @@
+.arrow {
+  color: var(--color-primary);
+  font-size: 3rem;
+  left: 0;
+  opacity: 0.7;
+  position: fixed !important;
+  top: 150px;
+  z-index: 1;
+}

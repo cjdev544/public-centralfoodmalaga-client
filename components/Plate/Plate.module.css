@@ -1,0 +1,91 @@
+.category {
+  background-color: var(--color-background-light);
+}
+
+.category p {
+  font-weight: bold;
+  margin: 0;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.category p span {
+  color: var(--color-primary);
+}
+
+.title {
+  background-color: #000;
+  color: var(--color-font-light);
+  font-weight: bold;
+  padding: 10px 0;
+  position: relative;
+  text-align: center;
+}
+
+.rest {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.rest span {
+  color: var(--color-primary);
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.description {
+  background-color: var(--color-background-light);
+  font-size: 16px;
+  padding: 20px;
+}
+
+.buy {
+  align-items: center;
+  background-color: #000;
+  color: var(--color-font-light);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.price span {
+  color: var(--color-primary);
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 576px) {
+  .price span {
+    display: block;
+    margin-right: 10px;
+  }
+}
+
+.minus {
+  color: var(--color-primary);
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.minus span {
+  color: var(--color-font-dark);
+  font-size: 25px;
+  margin: 0 20px;
+}
+
+.disable {
+  color: red;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+/* Buttons style in globals styles */

@@ -1,0 +1,15 @@
+.text {
+  align-items: center;
+  display: flex !important;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+}
+
+.text span {
+  display: block;
+}
+
+.image {
+  text-align: center;
+}

@@ -1,0 +1,42 @@
+.userAccount {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.title {
+  background-color: #000;
+  border-radius: 5px 5px 0 0;
+  color: var(--color-font-light);
+  font-weight: bold;
+  padding: 5px 10px;
+  width: max-content;
+}
+
+.data {
+  background-color: var(--color-background-light);
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.addressesTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plus {
+  background-color: var(--color-primary);
+  border: 2px solid #000;
+  border-radius: 5px;
+  color: var(--color-font-light);
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 10px;
+  position: absolute;
+  right: 0;
+  top: -5px;
+  width: max-content;
+}
+
+.plus span {
+  font-size: 20px;
+  margin-left: 5px;
+}

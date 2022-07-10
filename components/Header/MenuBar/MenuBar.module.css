@@ -1,0 +1,6 @@
+.menuBar {
+  background-color: var(--color-background-grey-dark);
+  border-radius: 0;
+}
+
+/* Class in global ccs */

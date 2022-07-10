@@ -1,0 +1,15 @@
+.pedidos {
+  padding: 10px;
+}
+
+.title {
+  background-color: var(--color-background-dark-absolute);
+  border-radius: 5px 5px 0 0;
+  color: var(--color-font-light);
+  padding: 5px 10px;
+  width: max-content;
+}
+
+.data {
+  margin-top: 10px;
+}

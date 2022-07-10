@@ -1,0 +1,9 @@
+.boxMobile {
+  background-color: var(--color-background-light);
+  border-radius: 10px;
+  border: 1px solid var(--color-border-grey-light);
+  box-shadow: 0 0 10px var(--color-border-grey-light);
+  margin: 0 auto;
+}
+
+/* Styles in globals styles */

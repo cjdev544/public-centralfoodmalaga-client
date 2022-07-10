@@ -1,0 +1,78 @@
+.box {
+  background-color: var(--color-background-light);
+  border-radius: 10px;
+  border: 1px solid var(--color-border-grey-light);
+  box-shadow: 0 0 10px var(--color-border-grey-light);
+  margin: 0 auto;
+  width: 240px;
+}
+
+.box:hover .info h2::after {
+  width: 100px;
+}
+
+.box img {
+  border-radius: 10px 10px 0 0;
+  height: 160px;
+  width: 240px;
+  object-fit: cover;
+}
+
+.text {
+  color: var(--color-font-dark);
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.info h2 {
+  font-size: 16px;
+  position: relative;
+}
+
+.info h2::after {
+  background-color: var(--color-primary);
+  content: "";
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 18px;
+  transition: all 0.5s ease-in-out;
+  width: 50px;
+}
+
+.info p {
+  color: var(--color-font-grey);
+  font-size: 14px;
+}
+
+.alergic {
+  color: var(--color-font-grey);
+  font-size: 10px;
+}
+
+.alergic i {
+  color: var(--color-font-grey);
+  font-size: 10px !important;
+}
+
+.price {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.price p {  
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.price i {
+  color: var(--color-primary);
+  font-size: 24px !important;
+}

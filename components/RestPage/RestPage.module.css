@@ -1,0 +1,21 @@
+.title {
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.optionTitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 40px !important;
+  position: relative;
+}
+
+.optionTitle::after {
+  background-color: var(--color-primary);
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 25px;
+  width: 60px;
+}

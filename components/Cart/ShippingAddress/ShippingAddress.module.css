@@ -1,0 +1,73 @@
+.shipping {
+  padding: 10px;
+  position: relative;
+}
+
+.title {
+  background-color: var(--color-background-dark-absolute);
+  border-radius: 5px 5px 0 0;
+  color: var(--color-font-light);
+  padding: 5px 10px;
+  width: max-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plus {
+  background-color: var(--color-primary);
+  border: 2px solid #000;
+  border-radius: 5px;
+  color: var(--color-font-light);
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 10px;
+  position: absolute;
+  right: 10px;
+  top: 35px;
+  width: max-content;
+}
+
+@media screen and (max-width: 576px) {
+  .plus {
+    top: 35px;
+ }
+}
+
+.plus span {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.data {
+  background-color: var(--color-background-light);
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.address {
+  border: 1px solid var(--color-border-grey-light);
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.address p {
+  margin-bottom: 5px;
+}
+
+.address p:first-of-type {
+  border-bottom: 1px solid var(--color-border-grey-light);
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.active {
+  background-color: #ffe2d4;
+  border-color: var(--color-primary);
+}
+
+.active p {
+  border-color: var(--color-primary);
+}

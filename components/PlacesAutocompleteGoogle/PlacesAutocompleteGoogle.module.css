@@ -1,0 +1,27 @@
+.places {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.list {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 50px;
+  background-color: var(--color-background-grey-dark);
+  z-index: 1;
+  border-radius: 5px;
+  padding: 10px;
+  color: var(--color-font-light);
+}
+
+.list li {
+  list-style: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.list li:hover,
+.list li:active {
+  background-color: var(--color-background-dark);
+}

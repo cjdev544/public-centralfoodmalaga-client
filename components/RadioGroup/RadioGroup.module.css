@@ -1,0 +1,40 @@
+.marginTop {
+  margin-top: 20px !important;
+}
+
+@media screen and (min-width: 576px) {
+  .buttons {
+    display: flex;
+  }
+
+  .buttons label {
+    margin-right: 20px;
+  }
+}
+
+.radio-group textarea {
+  margin-bottom: 20px !important;
+}
+
+.mapContainer {
+  margin-top: 20px;
+}
+
+.map {
+  color: var(--color-primary);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+
+.map:hover {
+  color: var(--color-font-grey);
+}
+
+.alert {
+  color: red;
+  font-weight: bold;
+}

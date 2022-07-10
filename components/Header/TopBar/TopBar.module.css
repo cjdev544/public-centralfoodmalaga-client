@@ -1,0 +1,88 @@
+@media screen and (max-width: 576px) {
+  .topBar {
+    height: 100% !important;
+    justify-content: center !important;
+  }
+
+  .topBar__left {
+    margin-top: 25px !important;
+  }
+
+  .topBar__right {
+    margin-bottom: 25px;
+    margin-top: 5px;
+  }
+}
+
+.topBar {
+  background-color: var(--color-background-dark);
+  height: 100px;
+  justify-content: space-between;
+}
+
+.topBar .ui.grid {
+  margin: 0;
+  padding: 0;
+}
+.topBar .ui.grid .column {
+  padding: 0;
+}
+
+.topBar__left {
+  align-items: center;
+  display: flex !important;
+  transition: all 0.5s;
+  margin-top: 10px;
+}
+
+.topBar__left:hover {
+  transform: translateX(-15px);
+}
+
+.topBar__left img {
+  border-radius: 100%;
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo span img {
+  height: 75px !important;
+  width: 75px !important;
+}
+
+.logoText {
+  margin-left: 10px;
+}
+
+.logoText__title {
+  align-items: baseline;
+  display: flex;
+}
+
+.logoText__title h1,
+.logoText__title h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.logoText__title h1 {
+  color: var(--color-primary);
+}
+
+.logoText__title h3 {
+  color: var(--color-font-grey);
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.logoText p {
+  color: var(--color-font-light);
+  font-style: italic;
+}
+
+/* class top-bar__right in globals css */

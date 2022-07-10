@@ -1,0 +1,19 @@
+.noFound {
+  color: var(--color-primary);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  position: relative;
+}
+
+.title::after {
+  position: absolute;
+  left: 0;
+  top: 35px;
+  width: 100px;
+  height: 4px;
+  content: "";
+  background-color: var(--color-primary);
+}

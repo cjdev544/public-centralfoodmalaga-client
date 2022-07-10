@@ -1,0 +1,17 @@
+.optionsMenu {
+  background-color: var(--color-background-grey);
+  padding-bottom: 4px;
+}
+
+.optionsMenu__button {
+  cursor: pointer;
+}
+
+a.active {
+  background-color: var(--color-primary);
+  color: var(--color-font-light);
+  padding: 5px 10px;
+  border-radius: 20px 20px 0 0;
+}
+
+/* options-menu__container in globals css */
